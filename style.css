@@ -283,6 +283,7 @@ section:nth-child(2n + 1) {
 /* Portfolio Section */
 
 #portfolio-container {
+  font-family: "Times New Roman", Times, serif;
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
@@ -317,11 +318,11 @@ section:nth-child(2n + 1) {
 }
 
 .portfolio-image-container:hover {
-  box-shadow: 0 0 20px #74adc8;
+  box-shadow: 0 0 30px #74adc8;
 }
 
 .portfolio-image-container:hover .portfolio-details {
-  background-color: #80808078;
+  background-color: #00000078;
   color: white;
 }
 
